@@ -115,7 +115,6 @@ class _RegisterPageState extends State<RegisterPage> {
                       )),
                   obscureText: true,
                 ),
-                Text(name),
                 FlatButton(
                   color: Colors.amber,
                   child: Text('Registrarse'),

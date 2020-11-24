@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../cart_page.dart';
+import '../order_page.dart';
 import '../payout_page.dart';
 
 class AppBarCustom extends StatelessWidget with PreferredSizeWidget {
@@ -13,7 +14,7 @@ class AppBarCustom extends StatelessWidget with PreferredSizeWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => PayoutPage()),
+                MaterialPageRoute(builder: (context) => OrderPage()),
               );
             },
             icon: Icon(Icons.add_box_outlined),
